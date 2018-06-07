@@ -342,7 +342,12 @@ padding-top: 20px;
   
 #contents #sidebar .pc_sidemenu li a {
   text-decoration: none;
-}  
+}
+@media (max-width: 550px){
+#contents .pc_sidemenu{
+ display: none; 
+}
+}
 
 #contents #main h2 .company_title {
   margin-bottom: 0px; }
