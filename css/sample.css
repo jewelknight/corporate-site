@@ -259,9 +259,8 @@ padding-top: 20px;
 
 @media (min-width: 550px) {
   #sub_cover {
-    background-image: url("../images/news/sub_cover.jpg");
-    background-size: cover;
-    padding: 80px 0; } }
+    padding: 80px 0; } 
+  }
 
 #sub_cover h2{
   text-align: center;
@@ -296,7 +295,9 @@ padding-top: 20px;
 
 #contents #main .news_li li span {
   color: #42b9d0;
-  font-weight: bold; }
+  display: block;
+  font-weight: bold;
+  margin-bottom: 3px;}
 @media (min-width: 550px) {
   #contents #main .news_li li {
     list-style: none;
@@ -349,7 +350,7 @@ padding-top: 20px;
 }
 }
 
-#contents #main h2 .company_title {
+#contents #main h2.company_title {
   margin-bottom: 0px; }
 
 @media (min-width: 550px) {
